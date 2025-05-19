@@ -83,7 +83,11 @@ A detailed paper documenting the model's design, methodology, rigorous aspects, 
 
 ## 6. Repository Structure
 
-SystematicEarningsDrift_Explorer/│├── .gitignore                     # Specifies intentionally untracked files├── README.md                      # This file│├── docs/                          # Documentation and research paper│   └── paper/│       ├── earnings_event_model_paper.tex   # LaTeX source for the paper│       ├── earnings_event_model_paper.pdf   # Compiled PDF of the paper│       └── images/                          # Images used in the LaTeX paper│├── results/                       # Output plots and analysis results from simulations│   ├── positive_regime/           # Results from the 'POSITIVE' regime simulation│   │   ├── performance_summary_plots_POSITIVE.png│   │   └── factor_attribution_POSITIVE.png│   └── negative_regime/           # Results from the 'NEGATIVE' regime simulation│       ├── performance_summary_plots_NEGATIVE.png│       └── factor_attribution_NEGATIVE.png│├── earnings_event_model.py        # The complete Python model script│└── requirements.txt               # Python package dependencies
+SystematicEarningsDrift_Explorer:
+- model: contains complete model code without plotting layer
+- docs: LaTeX write-up (updated)
+- notebooks: model with plots shown
+
 ## 7. Setup Instructions
 
 1.  **Clone the repository:**
