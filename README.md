@@ -1,4 +1,4 @@
-# SystematicEarningsDrift_Explorer
+# Systematic Earnings Drift Explorer
 
 **An exploratory Python project building a systematic trading model to investigate post-earnings announcement drift (PEAD). Features data simulation for different market regimes, backtesting, and foundational quantitative analysis.**
 
