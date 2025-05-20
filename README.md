@@ -1,6 +1,6 @@
 # Systematic Earnings Drift Explorer
 
-**An exploratory Python project building a systematic trading model to investigate post-earnings announcement drift (PEAD). Features data simulation for different market regimes, backtesting, and foundational quantitative analysis.**
+**A Python based systematic trading model to investigate post-earnings announcement drift (PEAD). Features data simulation for different market regimes, backtesting, and foundational quantitative analysis.**
 
 ---
 
@@ -31,18 +31,17 @@ This project was undertaken as a learning exercise to understand the fundamental
 * Building a basic backtesting framework in Python.
 * Applying foundational quantitative analysis techniques, including factor attribution and performance metric calculation.
 
-The model is primarily built to run on **internally simulated data**, allowing for experimentation and understanding of its mechanics without requiring external API access (like Bloomberg) for basic operation. It can simulate different market regimes ('POSITIVE' and 'NEGATIVE') to observe strategy performance under varied conditions.
+The model is primarily built to run on **internally simulated data**, allowing for experimentation and understanding of its mechanics without requiring external API access (like Bloomberg) for basic operation. It can simulate different market regimes ('POSITIVE' and 'NEGATIVE') to observe strategy performance under varied conditions. The version used with Bloomberg contains significant enhancements and will stay private indefinitely. 
 
 ## 2. Purpose of the Model
 
-The core purpose of this model was to serve as a practical learning tool to:
+The core purpose of this model was to serve as a practical tool to:
 * Translate the academic concept of PEAD into a testable, algorithmic hypothesis.
 * Gain hands-on experience with the lifecycle of a quantitative modeling project, from data handling to performance evaluation.
 * Explore how different market conditions (simulated as regimes) might impact an event-driven strategy.
 * Understand the importance of data integrity, point-in-time accuracy, and the challenges of backtesting.
 * Introduce concepts of factor analysis to differentiate strategy alpha from market beta.
 
-This project represents a junior/graduate-level analyst's initial foray into applying quantitative techniques to financial market problems, driven by intellectual curiosity.
 
 ## 3. Key Features
 
