@@ -1,6 +1,5 @@
 # Quantitative Event-Driven Trading Model: Earnings Surprise/Drift
-# Version 2.2.3: Fix Matplotlib Errors, Tuned Simulated Regimes for Sharpe Targets, Enhanced Plots, GBP
-# Incorporates concepts from Kelliher - "Quantitative Finance With Python"
+# Version 2.2.3: Fix Matplotlib Errors, Tuned Simulated Regimes for Sharpe Targets, Enhanced Plots, GBP (Aug/Sep 2022)
 
 import pandas as pd
 import numpy as np
